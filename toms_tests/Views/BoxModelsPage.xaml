@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="toms_tests.Views.BoxModelsPage">
+	<ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="15" x:Name="layout">
+                <Button Text="Stack Layout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Stack" BackgroundColor="Silver" />
+                <Button Text="Absolute Layout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Absolute" BackgroundColor="Silver" />
+                <Button Text="Relative Layout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Relative" BackgroundColor="Silver" />
+                <Button Text="Grid Layout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Grid" BackgroundColor="Silver" />
+                <Button Text="Scroll View" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Scroll" BackgroundColor="Silver" />
+                <Button Text="Custom Layout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Custom" BackgroundColor="Silver" />
+                <Button Text="ImpactDetailLayout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_ImpactDetailLayout" BackgroundColor="Silver" />
+                <Button Text="LoginLayout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_LoginLayout" BackgroundColor="Silver" />
+                <Button Text="Bluetooth" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Bluetooth" BackgroundColor="Silver" />
+                <Button Text="Carousel View" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Carousel" BackgroundColor="Silver" />
+                <Button Text="Picker" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_Picker" BackgroundColor="Silver" />
+                <Button Text="Horizontal ScrollView" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Clicked="Clicked_HorizontalScrollView" BackgroundColor="Silver" />
+                
+            </StackLayout>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

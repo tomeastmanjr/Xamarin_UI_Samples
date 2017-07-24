@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{AA2380CE-3745-4F9D-B85E-253C8FD46549}|Default">
+  <MonoDevelop.Ide.ItemProperties.toms__tests.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6CEEF7DC-B85F-4001-8104-2193DE938B9A" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="toms_tests/Views/HorizontalScrollViewPage.xaml">
+    <Files>
+      <File FileName="toms_tests/Views/BoxModelsPage.xaml" Line="20" Column="27" />
+      <File FileName="toms_tests/Views/BoxModelsPage.xaml.cs" Line="61" Column="53" />
+      <File FileName="toms_tests/Views/PickerDemoPage.xaml" Line="15" Column="1" />
+      <File FileName="toms_tests/Views/PickerDemoPage.xaml.cs" Line="38" Column="37" />
+      <File FileName="toms_tests/Views/ItemsPage.xaml" Line="24" Column="1" />
+      <File FileName="toms_tests/Views/ItemsPage.xaml.cs" Line="7" Column="27" />
+      <File FileName="toms_tests/Views/HorizontalScrollViewPage.xaml" Line="14" Column="55" />
+      <File FileName="toms_tests/Views/HorizontalScrollViewPage.xaml.cs" Line="35" Column="10" />
+      <File FileName="toms_tests/Controls/TLScrollView.cs" Line="5" Column="21" />
+      <File FileName="iOS/Controls/TLScrollViewRenderer.cs" Line="22" Column="1" />
+      <File FileName="toms_tests/Controls/TLImageCircle.cs" Line="10" Column="1" />
+      <File FileName="toms_tests/Controls/TLImageCrop.cs" Line="1" Column="1" />
+      <File FileName="iOS/Controls/TLImageCircleRenderer.cs" Line="11" Column="1" />
+      <File FileName="Droid/Controls/TLScrollViewRenderer.cs" Line="21" Column="1" />
+      <File FileName="Droid/Controls/TLEntryRenderer.cs" Line="7" Column="37" />
+      <File FileName="toms_tests/Controls/TLEntry.cs" Line="32" Column="1" />
+      <File FileName="toms_tests/Controls/ReturnButtonType.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="toms_tests" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.toms__tests.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

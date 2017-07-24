@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="toms_tests.Views.PickerDemoPage">
+	<ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="header" Text="Picker" HorizontalOptions="Center" FontSize="Large" />
+            <Picker x:Name="picker" Title="Color" VerticalOptions="CenterAndExpand" />
+            <BoxView x:Name="boxView"
+                WidthRequest="150" HeightRequest="150"
+                HorizontalOptions="Center" VerticalOptions="CenterAndExpand">     
+            </BoxView>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

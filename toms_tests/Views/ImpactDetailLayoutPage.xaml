@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="toms_tests.Views.ImpactDetailLayoutPage">
+	<ContentPage.Content>
+        <StackLayout>
+            <Grid RowSpacing="5" ColumnSpacing="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="profile_generic.png" BackgroundColor="White"
+                    Grid.Column="0" Grid.Row="0" 
+                    Grid.RowSpan="4" />
+                <Label Text="10" TextColor="White"
+                    Grid.Column="0" Grid.Row="0" 
+                    Grid.RowSpan="4"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Aqua" Text="Test Name Tom" 
+                    Grid.Column="1" Grid.Row="0" 
+                    Grid.ColumnSpan="3" Grid.RowSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Yellow" Text="55g" 
+                    Grid.Column="1" Grid.Row="2" 
+                    Grid.RowSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Silver" Text="Test Time 5:37PM" 
+                    Grid.Column="2" Grid.Row="2" 
+                    Grid.ColumnSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Teal" Text="Test Date 01/02/2000" 
+                    Grid.Column="2" Grid.Row="3" 
+                    Grid.ColumnSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+            </Grid>
+
+            <Grid RowSpacing="5" ColumnSpacing="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="profile_generic.png" BackgroundColor="White"
+                    Grid.Column="0" Grid.Row="0" 
+                    Grid.RowSpan="4" />
+                <Label Text="10" TextColor="White"
+                    Grid.Column="0" Grid.Row="0" 
+                    Grid.RowSpan="4"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Aqua" Text="Test Name Tom" 
+                    Grid.Column="1" Grid.Row="0" 
+                    Grid.ColumnSpan="3" Grid.RowSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Yellow" Text="55g" 
+                    Grid.Column="1" Grid.Row="2" 
+                    Grid.RowSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Silver" Text="Test Time 5:37PM" 
+                    Grid.Column="2" Grid.Row="2" 
+                    Grid.ColumnSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Teal" Text="Test Date 01/02/2000" 
+                    Grid.Column="2" Grid.Row="3" 
+                    Grid.ColumnSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+            </Grid>
+
+            <Grid RowSpacing="5" ColumnSpacing="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="profile_generic.png" BackgroundColor="White"
+                    Grid.Column="0" Grid.Row="0" 
+                    Grid.RowSpan="4" />
+                <Label Text="10" TextColor="White"
+                    Grid.Column="0" Grid.Row="0" 
+                    Grid.RowSpan="4"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Aqua" Text="Test Name Tom" 
+                    Grid.Column="1" Grid.Row="0" 
+                    Grid.ColumnSpan="3" Grid.RowSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Yellow" Text="55g" 
+                    Grid.Column="1" Grid.Row="2" 
+                    Grid.RowSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Silver" Text="Test Time 5:37PM" 
+                    Grid.Column="2" Grid.Row="2" 
+                    Grid.ColumnSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+                <Label BackgroundColor="Teal" Text="Test Date 01/02/2000" 
+                    Grid.Column="2" Grid.Row="3" 
+                    Grid.ColumnSpan="2"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+            </Grid>
+
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

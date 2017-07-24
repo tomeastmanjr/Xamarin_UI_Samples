@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="toms_tests.Views.HorizontalScrollViewPage"
+    xmlns:controls="clr-namespace:toms_tests.Controls;assembly=toms_tests" 
+    xmlns:local="clr-namespace:toms_tests">
+	<ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Welcome to Xamarin Forms!"
+                    IsVisible="{Binding IsVisible}"
+                VerticalOptions="Center" HorizontalOptions="Center" />
+            <controls:TLScrollView 
+                    Orientation="Horizontal" 
+                    ItemsSource="{Binding Items}" 
+                    ItemSelected="Handle_ItemSelected"
+                    SelectedCommand="{Binding [ItemSelected]}"
+                    HeightRequest="100">
+                <controls:TLScrollView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="5">
+                                <controls:TLImageCircle 
+                                    Source="{Binding Image}" 
+                                    HeightRequest="80" 
+                                    WidthRequest="80" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </controls:TLScrollView.ItemTemplate>
+            </controls:TLScrollView>
+            <Label Text="{Binding SelectedItem.Name}"
+                VerticalOptions="Center" HorizontalOptions="Center" />
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

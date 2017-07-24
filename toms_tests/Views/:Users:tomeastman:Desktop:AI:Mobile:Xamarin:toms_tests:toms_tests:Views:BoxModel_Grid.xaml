@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="toms_tests.Views.BoxModel_Grid">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="200" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <BoxView Color="Red" Grid.Column="0" Grid.Row="0" />
+            <BoxView Color="Orange" Grid.Column="0" Grid.Row="1" />
+            <BoxView Color="Yellow" Grid.Column="0" Grid.Row="2" />
+            <BoxView Color="Green" Grid.Column="1" Grid.Row="0" />
+            <BoxView Color="Blue" Grid.Column="1" Grid.Row="1" />
+            <BoxView Color="Black" Grid.Column="1" Grid.Row="2" />
+        </Grid>
+    </ContentPage.Content>    
+</ContentPage>
