@@ -1,5 +1,4 @@
-﻿using System;
-using TitiusLabs.Forms.Controls;
+﻿using toms_tests.Controls;
 using toms_tests.Droid.Controls;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;

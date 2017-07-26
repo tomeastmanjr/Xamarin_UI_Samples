@@ -45,9 +45,9 @@ namespace toms_tests.Views
 				new Item_HSV{Image = "http://4everstatic.com/immagini/80x80/natura/barriera-corallina,-pesci-colorati-148311.jpg", Name="Barriera Corallina 4"},
 				new Item_HSV{Image = "http://www.clubparadiso.it/upload/CONF66/20150729/Yasawa_Islands_Resort_e_SPA_giardino-tSa-80X80.jpg", Name="Barriera Corallina 5"},
 				new Item_HSV{Image = "http://thailandluxe.net/wp-content/uploads/2015/06/Bamboo-Island1-e1434357108153-80x80.jpg", Name="Barriera Corallina 6"},
-				new Item_HSV{Image = "http://www.amando.it/imagesdyn/gallery_plus/80x80/12/80/la-grande-barriera-corallina-dellaustralia_128073.jpg", Name="Barriera Corallina 7"},
-				new Item_HSV{Image = "http://tartapedia.it/wp-content/themes/arthemia-premium/scripts/timthumb.php?src=/http://tartapedia.it/wp-content/uploads/2013/06/PROTEGGIAMO-LA-BARRIERA-CORALLINA.jpg&w=80&h=80&zc=1&q=100", Name="Barriera Corallina 7"},
-				new Item_HSV{Image = "http://www.amando.it/imagesdyn/gallery_plus/80x80/12/80/belize-blue-hole_128072.jpg", Name="Barriera Corallina 7"}
+				new Item_HSV{Image = "http://www.amando.it/imagesdyn/gallery_plus/80x80/12/80/la-grande-barriera-corallina-dellaustralia_128073.jpg", Name="Barriera Corallina 8"},
+				new Item_HSV{Image = "http://tartapedia.it/wp-content/themes/arthemia-premium/scripts/timthumb.php?src=/http://tartapedia.it/wp-content/uploads/2013/06/PROTEGGIAMO-LA-BARRIERA-CORALLINA.jpg&w=80&h=80&zc=1&q=100", Name="Barriera Corallina 9"},
+				new Item_HSV{Image = "http://www.amando.it/imagesdyn/gallery_plus/80x80/12/80/belize-blue-hole_128072.jpg", Name="Barriera Corallina 10"}
 			};
 
 			BindingContext = this;
@@ -75,7 +75,7 @@ namespace toms_tests.Views
 
 		void Handle_ItemSelected(object sender, Xamarin.Forms.ItemTappedEventArgs e)
 		{
-			DisplayAlert("Item Selezionato", (e.Item as Item_HSV).Name, "cancel");
+			DisplayAlert("Item Selected", (e.Item as Item_HSV).Name, "cancel");
 		}
 	}
 

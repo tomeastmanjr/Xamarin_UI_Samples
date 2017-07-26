@@ -48,3 +48,4 @@
 /Users/tomeastman/Desktop/AI/Mobile/Xamarin/toms_tests/toms_tests/obj/Debug/toms_tests.Views.HorizontalScrollViewPage.xaml.g.cs
 /Users/tomeastman/Desktop/AI/Mobile/Xamarin/toms_tests/toms_tests/obj/Debug/toms_tests.dll
 /Users/tomeastman/Desktop/AI/Mobile/Xamarin/toms_tests/toms_tests/obj/Debug/toms_tests.pdb
+/Users/tomeastman/Desktop/AI/Mobile/Xamarin/toms_tests/toms_tests/obj/Debug/toms_tests.csprojResolveAssemblyReference.cache
